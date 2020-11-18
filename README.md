@@ -22,5 +22,5 @@ We had to get inspiration from [google calculator](https://www.google.com/search
 
 ![lighthouse](https://i.imgur.com/N1AkQtm.png)
 
-[githubpage](https://thomasbour.github.io/calculator/)
+[Elle vole parmis les nuages](https://thomasbour.github.io/calculator/)
 
