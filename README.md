@@ -26,4 +26,4 @@ We had to get inspiration from [google calculator](https://www.google.com/search
 
 ### Comments
 
--I would've like to add the "Pressing enter to display the result (same as pressing the = button)" but i'm gonna do it later. Probably during the week-end
+- I would've like to add the "Pressing enter to display the result (same as pressing the = button)" but i'm gonna do it later. Probably during the week-end
