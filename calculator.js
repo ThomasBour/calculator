@@ -8,7 +8,7 @@ const valeur = [
     class : 'btn btn-outline-secondary',
 },
 {
-    valeur: 'x²',
+    valeur: 'DEL',
     class : 'btn btn-outline-secondary',
 },
 {
@@ -64,11 +64,15 @@ const valeur = [
     class : 'btn btn-outline-secondary',    
 },
 {
-    valeur: '(',
+    valeur: '0',
     class : 'btn btn-outline-secondary',    
 },
 {
-    valeur: '0',
+    valeur: '-',
+    class : 'btn btn-outline-secondary',    
+},
+{
+    valeur: 'cos',
     class : 'btn btn-outline-secondary',    
 },
 {
@@ -76,8 +80,20 @@ const valeur = [
     class : 'btn btn-outline-secondary',    
 },
 {
-    valeur: ')',
+    valeur: '(',
     class : 'btn btn-outline-secondary',    
+},
+{
+    valeur: ')',
+    class : 'btn btn-outline-secondary bt-lg',    
+},
+{
+    valeur: '%',
+    class : 'btn btn-outline-secondary ',    
+},
+{
+    valeur: 'x²',
+    class : 'btn btn-outline-secondary ',    
 },
 ];
 
@@ -104,11 +120,14 @@ function safeEval(str){
  function sin() {
     return Math.sin(resultat.textContent)
 }
-// function cos() {  !!J'ai retiré la touche par manque de place/ergonomie ! (Le Else if est quand meme présent plus bas)
-//     return Math.cos(resultat.textContent)
-// }
+function cos() {
+    return Math.cos(resultat.textContent)
+}
 function exp(){
     return Math.pow(resultat.textContent, 2)
+}
+function pourcent() {
+    return (resultat.textContent/100)
 }
 function tan() {
     return Math.tan(resultat.textContent)
@@ -132,6 +151,9 @@ for (let element of valeur){
                 memoire.textContent='';
                 arr=[];
                 historique.textContent='';
+
+            }else if (element.valeur == 'DEL'){
+                resultat.textContent = '';
 
             }
             else if (element.valeur == '=') {
@@ -169,6 +191,14 @@ for (let element of valeur){
             else if (element.valeur == 'x²') {
                 let exposant = exp();
                 resultat.textContent = exposant;
+            }
+            else if (element.valeur == '%') {
+                memoire.textContent = resultat.textContent +'%' ;
+                let pourcentage = pourcent();
+                resultat.textContent = pourcentage;
+                memoire.textContent = memoire.textContent + '=' + pourcentage;
+                hist(memoire.textContent);
+                resultat.textContent = ' ';
             }
             else{
                 resultat.textContent += element.valeur;
