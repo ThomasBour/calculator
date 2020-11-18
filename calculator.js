@@ -1,99 +1,99 @@
 const valeur = [
 {
     valeur: 'sin',
-    class : 'btn btn-outline-secondary',    
+    class : 'btn btn-outline-secondary btn-info text-light',    
 },
 {
     valeur: 'tan',
-    class : 'btn btn-outline-secondary',
+    class : 'btn btn-outline-secondary btn-info text-light',
 },
 {
     valeur: 'DEL',
-    class : 'btn btn-outline-secondary',
+    class : 'btn btn-outline-secondary btn-info text-light',
 },
 {
     valeur: 'C',
-    class : 'btn btn-outline-secondary',
+    class : 'btn btn-outline-secondary btn-danger text-light',
 },
 {
     valeur: '1',
-    class : 'btn btn-outline-secondary',
+    class : 'btn btn-outline-secondary btn-info text-light',
 },
 {
     valeur: '2',
-    class : 'btn btn-outline-secondary',
+    class : 'btn btn-outline-secondary btn-info text-light',
 },
 {
     valeur: '3',
-    class : 'btn btn-outline-secondary',
+    class : 'btn btn-outline-secondary btn-info text-light',
 },
 {
     valeur: '+',
-    class : 'btn btn-outline-secondary',
+    class : 'btn btn-outline-secondary btn-info text-light',
 },
 {
     valeur: '4',
-    class : 'btn btn-outline-secondary',
+    class : 'btn btn-outline-secondary btn-info text-light',
 },
 {
     valeur: '5',
-    class : 'btn btn-outline-secondary',
+    class : 'btn btn-outline-secondary btn-info text-light',
 },
 {
     valeur: '6',
-    class : 'btn btn-outline-secondary',
+    class : 'btn btn-outline-secondary btn-info text-light',
 },
 {
     valeur: '/',
-    class : 'btn btn-outline-secondary',
+    class : 'btn btn-outline-secondary btn-info text-light',
 },
 {
     valeur: '7',
-    class : 'btn btn-outline-secondary',
+    class : 'btn btn-outline-secondary btn-info text-light',
 },
 {
     valeur: '8',
-    class : 'btn btn-outline-secondary',
+    class : 'btn btn-outline-secondary btn-info text-light',
 },
 {
     valeur: '9',
-    class : 'btn btn-outline-secondary',    
+    class : 'btn btn-outline-secondary btn-info text-light',    
 },
 {
     valeur: '*',
-    class : 'btn btn-outline-secondary',    
+    class : 'btn btn-outline-secondary btn-info text-light',    
 },
 {
     valeur: '0',
-    class : 'btn btn-outline-secondary',    
+    class : 'btn btn-outline-secondary btn-info text-light',    
 },
 {
     valeur: '-',
-    class : 'btn btn-outline-secondary',    
+    class : 'btn btn-outline-secondary btn-info text-light',    
 },
 {
     valeur: 'cos',
-    class : 'btn btn-outline-secondary',    
+    class : 'btn btn-outline-secondary btn-info text-light',    
 },
 {
     valeur: '=',
-    class : 'btn btn-outline-secondary',    
+    class : 'btn btn-outline-secondary btn-info text-light',    
 },
 {
     valeur: '(',
-    class : 'btn btn-outline-secondary',    
+    class : 'btn btn-outline-secondary btn-info text-light',    
 },
 {
     valeur: ')',
-    class : 'btn btn-outline-secondary bt-lg',    
+    class : 'btn btn-outline-secondary btn-info text-light',    
 },
 {
     valeur: '%',
-    class : 'btn btn-outline-secondary ',    
+    class : 'btn btn-outline-secondary btn-info text-light',    
 },
 {
     valeur: 'x²',
-    class : 'btn btn-outline-secondary ',    
+    class : 'btn btn-outline-secondary btn-info text-light',    
 },
 ];
 

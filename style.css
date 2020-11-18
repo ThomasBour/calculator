@@ -1,35 +1,3 @@
-/* .cal{
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    height: 100vh;
-    grid-template-columns: repeat(4,115px);
-    grid-template-rows: minmax(120px,auto) repeat(5, 100px);
-}
-.cal > button {
-    font-size: 2rem;
-}
-.fat{
-    grid-column: span 2;
-}
-.overflow-auto{
-    font-size: small;
-    height: 2rem;
-}
-.output{
-    font-size: 2rem;
-    grid-column: 1/ -1;
-    background-color: gray;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-    flex-direction: column;
-    padding: 10px;
-    word-wrap: break-word;
-    word-break: break-all;
-    color: white;
-} */
-
 .cal{
     display: grid;
     justify-content: center;
