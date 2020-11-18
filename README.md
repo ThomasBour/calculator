@@ -16,7 +16,7 @@
 
 We had to get inspiration from [google calculator](https://www.google.com/search?q=calculator), which I've taken a look at. And i've also used one of mine for the design.
 
-![google calculator](calculator.png)
+![google calculator](https://i.imgur.com/NGTyo2s.png)
 
 ### Here is a link to the github page and the lighthouse.
 
