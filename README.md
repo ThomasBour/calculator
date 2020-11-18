@@ -22,5 +22,8 @@ We had to get inspiration from [google calculator](https://www.google.com/search
 
 ![lighthouse](https://i.imgur.com/N1AkQtm.png)
 
-[Elle vole parmis les nuages](https://thomasbour.github.io/calculator/)
+  [She flies among the clouds](https://thomasbour.github.io/calculator/)
 
+### Comments
+
+-I would've like to add the "Pressing enter to display the result (same as pressing the = button)" but i'm gonna do it later. Probably during the week-end
